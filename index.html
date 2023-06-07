@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HodlInfo | ₹24,49,984</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-logo"></div>
+        <div class="nav_middle">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              INR <ion-icon name="caret-down-outline"></ion-icon>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">INR</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-button">
+              BTC <ion-icon name="caret-down-outline"></ion-icon>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">BTC</a>
+              <a href="#">UDH</a>
+              <a href="#">USDT</a>
+              <a href="#">XRP</a>
+              <a href="#">TRX</a>
+              <a href="#">DASH</a>
+            </div>
+          </div>
+          <a href="https://hodlinfo.com/BTC-INR"><button>BUY BTC</button></a>
+        </div>
+        <div class="nav_last">
+          <button>Connect Telegram</button>
+          <div class="mode-toggler">
+            <input type="checkbox" id="mode-toggle" />
+            <label for="mode-toggle" class="toggle-label"></label>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="home"></div>
+    <div class="full_tickers">
+      <div class="ticker_titles">
+        <div class="names">
+          <h2>#</h2>
+          <h2>Name</h2>
+          <h2>Last Price</h2>
+          <h2>Buy Price</h2>
+          <h2>Sell Price</h2>
+          <h2>Volume</h2>
+          <h2>Base Price</h2>
+        </div>
+      </div>
+      <div id="tickers-container"></div>
+    </div>
+    <script src="script.js"></script>
+    <div class="footer">
+      <h4>Copyright © 2019    HodlInfo.com</h4>
+      <h4>Support</h4>
+    </div>
+  </body>
+</html>
